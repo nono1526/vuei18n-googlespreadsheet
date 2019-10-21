@@ -1,0 +1,27 @@
+{
+  "name": "@nono/vuei18n-googlespreadsheet",
+  "version": "1.0.0",
+  "description": "Vue-i18n language file transform to  google spread sheet",
+  "main": "index.js",
+  "bin": {
+    "vuei18n-googlespreadsheet": "bin/vuei18n-googlespreadsheet",
+    "@nono/vuei18n-googlespreadsheet": "bin/vuei18n-googlespreadsheet"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue-i18n",
+    "cli"
+  ],
+  "author": "nono1102137211@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.1",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.0"
+  }
+}
